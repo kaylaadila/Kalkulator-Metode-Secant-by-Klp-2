@@ -5,10 +5,12 @@
 ## Anggota Kelompok
 
 Kelompok 2 — Komputasi Numerik
--
--M. Ihsan Syahni
 - Kayla Adila Farija Atika
--M. Farras Munawwir
+- Aisya Ghaisany 
+- Naila Syakira Bahri
+- M. Ihsan Syahni
+- M. Farras Munawwir
+- Shandy Aprilliko Hartianto
 
 
 ## Status Proyek
