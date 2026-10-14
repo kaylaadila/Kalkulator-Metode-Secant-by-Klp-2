@@ -6,9 +6,9 @@
 
 Kelompok 2 — Komputasi Numerik
 -
--
+-M. Ihsan Syahni
 - Kayla Adila Farija Atika
--
+-M. Farras Munawwir
 
 
 ## Status Proyek
