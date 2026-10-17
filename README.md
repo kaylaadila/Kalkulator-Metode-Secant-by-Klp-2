@@ -54,7 +54,15 @@ python main.py
 Library: `numpy`, `matplotlib`, `sympy`, `customtkinter` (Tkinter bawaan Python;
 di Linux mungkin perlu `sudo apt install python3-tk`).
 
+## Struktur Project
 
+| File | Fungsi |
+|------|--------|
+| `main.py` | Titik masuk, menjalankan aplikasi |
+| `secant.py` | Perhitungan metode Secant (tanpa tampilan) |
+| `parser_fungsi.py` | Mengubah teks f(x) menjadi fungsi yang bisa dihitung |
+| `gui.py` | Tampilan: input, hasil, tabel iterasi, grafik |
+| `screenshots/` | Tangkapan layar hasil perhitungan |
 
 ## Lisensi
 
