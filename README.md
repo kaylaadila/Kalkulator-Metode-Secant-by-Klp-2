@@ -42,6 +42,20 @@ iterasi, nilai error, jumlah iterasi, dan grafik fungsi.
 - Penanganan kesalahan: input tidak valid, pembagian dengan nol, dan divergen
 
 
+## Cara Menjalankan
+
+```bash
+git clone https://github.com/kaylaadila/Kalkulator-Metode-Secant-by-Klp-2.git
+cd Kalkulator-Metode-Secant-by-Klp-2
+pip install -r requirements.txt
+python main.py
+```
+
+Library: `numpy`, `matplotlib`, `sympy`, `customtkinter` (Tkinter bawaan Python;
+di Linux mungkin perlu `sudo apt install python3-tk`).
+
+
+
 ## Lisensi
 
 Belum ditentukan.
