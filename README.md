@@ -81,6 +81,11 @@ di Linux mungkin perlu `sudo apt install python3-tk`).
 | `gui.py` | Tampilan: input, hasil, tabel iterasi, grafik |
 | `screenshots/` | Tangkapan layar hasil perhitungan |
 
+## Penjelasan Kode GUI ( gui.py)
+**`gui.py`** — kelas `App` menyusun empat kartu (Input, Hasil, Tabel Iterasi, Grafik).
+  Tombol **Hitung** membaca input, memvalidasinya, memanggil `secant`, lalu mengisi
+  tabel, hasil, dan grafik Matplotlib.
+
 ## Lisensi
 
 Belum ditentukan.
