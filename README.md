@@ -19,9 +19,9 @@ Dalam tahap pengembangan.
 
 ## Deskripsi
 
-Kalkulator penyelesaian persamaan nonlinier f(x) = 0 dengan **metode Secant**,
-dibuat dengan Python (GUI CustomTkinter). Program menampilkan akar, proses setiap
-iterasi, nilai error, jumlah iterasi, dan grafik fungsi.
+Kalkulator Metode Secant merupakan aplikasi berbasis Python dengan antarmuka GUI menggunakan CustomTkinter yang dirancang untuk membantu menyelesaikan persamaan nonlinier (f(x)=0) secara numerik. Pengguna dapat memasukkan fungsi, dua nilai awal, toleransi error, dan maksimum iterasi untuk memperoleh pendekatan akar persamaan.
+
+Program menampilkan hasil perhitungan berupa nilai akar, proses setiap iterasi, error, jumlah iterasi, dan status perhitungan. Selain itu, aplikasi menyediakan grafik fungsi beserta titik-titik iterasi untuk mempermudah pengguna memahami proses pencarian akar.
 
 ## Tujuan
 
@@ -41,13 +41,30 @@ iterasi, nilai error, jumlah iterasi, dan grafik fungsi.
 - Grafik fungsi lengkap dengan titik iterasi dan akar
 - Penanganan kesalahan: input tidak valid, pembagian dengan nol, dan divergen
 
+## Teknologi
+
+- **Python** sebagai bahasa pemrograman untuk mengembangkan aplikasi dan menerapkan perhitungan metode Secant.
+- **CustomTkinter** untuk membuat antarmuka GUI aplikasi.
+- **NumPy** untuk mendukung operasi dan perhitungan numerik.
+- **SymPy** untuk membaca dan mengolah fungsi matematika yang dimasukkan pengguna.
+- **Matplotlib** untuk menampilkan grafik fungsi dan titik iterasi.
+- **GitHub** digunakan untuk menyimpan dan mempublikasikan source code proyek.
 
 ## Cara Menjalankan
-
-```bash
+*1. Clone Repository*
+```
 git clone https://github.com/kaylaadila/Kalkulator-Metode-Secant-by-Klp-2.git
+```
+*2. Masuk ke Folder Proyek*
+```
 cd Kalkulator-Metode-Secant-by-Klp-2
+```
+*3. Install Dependencies*
+```
 pip install -r requirements.txt
+```
+*4. Jalankan Aplikasi*
+```
 python main.py
 ```
 
