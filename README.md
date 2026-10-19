@@ -41,6 +41,21 @@ Program menampilkan hasil perhitungan berupa nilai akar, proses setiap iterasi, 
 - Grafik fungsi lengkap dengan titik iterasi dan akar
 - Penanganan kesalahan: input tidak valid, pembagian dengan nol, dan divergen
 
+## Metode Secant
+
+Dua tebakan awal x0 dan x1 dipakai untuk menarik garis lurus (garis sekan) melalui
+titik (x0, f(x0)) dan (x1, f(x1)). Titik potong garis itu dengan sumbu x menjadi
+tebakan berikutnya:
+
+```
+x2 = x1 - f(x1) * (x1 - x0) / (f(x1) - f(x0))
+```
+
+- **Error** pada tiap iterasi: |x2 - x1|
+- **Kriteria berhenti:** error <= toleransi (konvergen), atau iterasi mencapai maksimum
+- **Catatan:** Secant tidak menjamin konvergen. Jika f(x0) = f(x1) rumus tidak dapat
+  dihitung, dan program akan menampilkan pesan status.
+
 ## Teknologi
 
 - **Python** sebagai bahasa pemrograman untuk mengembangkan aplikasi dan menerapkan perhitungan metode Secant.
@@ -81,8 +96,17 @@ di Linux mungkin perlu `sudo apt install python3-tk`).
 | `gui.py` | Tampilan: input, hasil, tabel iterasi, grafik |
 | `screenshots/` | Tangkapan layar hasil perhitungan |
 
-## Penjelasan Kode GUI ( gui.py)
-**`gui.py`** — kelas `App` menyusun empat kartu (Input, Hasil, Tabel Iterasi, Grafik).
+## Penjelasan Kode
+
+- **`secant.py`** — fungsi `secant(f, x0, x1, tol, maks_iter)` mengulang rumus Secant,
+  mencatat tiap iterasi ke dalam daftar baris, lalu mengembalikan akar, error, jumlah
+  iterasi, dan status.
+  
+- **`parser_fungsi.py`** — memakai SymPy untuk membaca teks seperti `x^3 - x - 1`
+  (tanda `^` dianggap pangkat), memastikan hanya variabel `x` yang dipakai, lalu
+  mengubahnya menjadi fungsi numerik dengan `lambdify`.
+  
+- **`gui.py`** — kelas `App` menyusun empat kartu (Input, Hasil, Tabel Iterasi, Grafik).
   Tombol **Hitung** membaca input, memvalidasinya, memanggil `secant`, lalu mengisi
   tabel, hasil, dan grafik Matplotlib.
 
