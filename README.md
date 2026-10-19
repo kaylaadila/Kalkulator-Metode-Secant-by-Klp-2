@@ -110,6 +110,10 @@ di Linux mungkin perlu `sudo apt install python3-tk`).
   Tombol **Hitung** membaca input, memvalidasinya, memanggil `secant`, lalu mengisi
   tabel, hasil, dan grafik Matplotlib.
 
+## Output Program
+<img width="1917" height="1078" alt="Screenshot_2026-10-19_231639" src="https://github.com/user-attachments/assets/99022511-e8bd-489e-af70-01a64c30d33e" />
+
+
 ## Lisensi
 
 Belum ditentukan.
