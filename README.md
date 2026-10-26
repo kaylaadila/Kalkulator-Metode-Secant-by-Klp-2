@@ -12,11 +12,6 @@ Kelompok 2 — Komputasi Numerik
 - M. Farras Munawwir
 - Shandy Aprilliko Hartianto
 
-
-## Status Proyek
-
-Dalam tahap pengembangan.
-
 ## Deskripsi
 
 Kalkulator Metode Secant merupakan aplikasi berbasis Python dengan antarmuka GUI menggunakan CustomTkinter yang dirancang untuk membantu menyelesaikan persamaan nonlinier (f(x)=0) secara numerik. Pengguna dapat memasukkan fungsi, dua nilai awal, toleransi error, dan maksimum iterasi untuk memperoleh pendekatan akar persamaan.
